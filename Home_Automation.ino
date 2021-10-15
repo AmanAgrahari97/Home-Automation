@@ -30,6 +30,7 @@ if(input.length() >0){
   {digitalWrite(4, HIGH);
     digitalWrite(5, HIGH);
   digitalWrite(6, HIGH);}
+  else if(input == "ALL OFF")
   {digitalWrite(4, LOW);
     digitalWrite(5, LOW);
   digitalWrite(6, LOW);}
